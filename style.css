@@ -21,24 +21,102 @@ h2{
 }
 .container{
     background-color: #FFFFFF;
+    width: 870px;
     padding: 30px;
+    margin-top: 21px;
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .Section-titel1{
     color: #5153a3;
     font-size: 24px;
     line-height: 36px;
+    margin-top: 10px;
 }
 .plear-team {
     margin-left: 16px;
+    
 }
 .players{
     margin-left: 25px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 .top-players{
     border-bottom: 3px solid #d0d0d0;
+}
+/* blog item design */
+.blog-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 30px 30px 30px;
+}
+
+.blog img{
+    width: 200px;
+    
+}
+.blog-content h3{
+    font-size: 15px;
+}
+.blog-content {
+    float: left;
+    width: 50%;
+}
+.blog-content img{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.blog-content p{
+    color: #b9b8b8;
+}
+.blog-content p span{
+    color: #5153a3 ;
+}
+/* latest cource  */
+.latest-cource-item1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+}
+.latest-cource img{
+    width: 100%;
+    text-align: center;
+}
+.latest-cource-item{
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-right: 2px;
+    box-shadow: 10px 10px 40px rgb(206, 203, 203);
+    border-radius: 5px;
+}
+.latest-cource p{
+ color: #e88469;
+ font-size: 8px;
+}
+.staricon{
+    color: #f6bc2a;
+    font-size: small;
+    text-align: left;
+}
+.star1{
+    color: #ccc8c8;
+}
+.reating-point {
+    color: #b9b8b8;
+    font-size: medium;
+    margin-left: 35px;
+}
+.cource-duretion{
+    color: #f1626b;
+    background-color: #fce3e6;
+    line-height: 10px;
+    padding: 0 7px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 35px;
 }
