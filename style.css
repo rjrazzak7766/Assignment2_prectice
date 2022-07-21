@@ -120,3 +120,24 @@ main{
     border-radius: 5px;
     margin-left: 35px;
 }
+/* Media Queary  */
+/* Mobile Device */
+@media only screen and (max-width: 680px) {
+    .container{
+        width: 100%;
+    }
+    .player, .blog-item, .latest-cource-item1{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
+/* Tablet Device */
+@media only screen and (min-width: 680px) and (max-width: 1180px) {
+    .container{
+        width: 100%;
+    }
+    .player, .blog-item, .latest-cource-item1{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
